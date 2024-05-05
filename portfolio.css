@@ -147,12 +147,20 @@ h4 {
     margin: 0;
 }
 .blogimg {
-    position: center;
-    justify-content: center;
-    height: 300px;
-    width: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        padding: 20px;
 }
 .blogs {
     position: center;
     justify-content: center;
+}
+.marchblog {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
 }
